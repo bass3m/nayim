@@ -1,1 +1,1 @@
-worker: lein trampoline run -m nayim.core
+worker: lein run -m nayim.core

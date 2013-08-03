@@ -1,1 +1,1 @@
-worker: lein run -m nayim.core
+nayim: lein run -m nayim.core

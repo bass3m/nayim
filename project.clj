@@ -7,4 +7,5 @@
   :main nayim.core
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [com.ashafa/clutch "0.4.0-RC1"]
-                 [suweet "0.1.4-SNAPSHOT"]])
+                 [suweet "0.1.4-SNAPSHOT"]
+                 [baseet-twdb "0.1.0-SNAPSHOT"]])

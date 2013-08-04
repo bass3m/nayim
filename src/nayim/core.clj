@@ -36,5 +36,5 @@
        (nth _ (rem (clj-time/hour (clj-time/now)) (count _)))
        ((juxt (constantly (-> _ :value :name))
               (constantly (count (twdb/db-update-tweets!
-                                   config (-> _ :value :list-d))))))
+                                   config (-> _ :value :list-id))))))
        (format (str "Got: " (second _) " new tweets for Twitter list: " (first _)))))))
